@@ -12,7 +12,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 
 
-const page = () => {
+const Page = () => {
   useEffect(()=>{
     const initAOS = async()=>{
       await import ('aos')
@@ -40,4 +40,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
